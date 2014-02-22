@@ -1,0 +1,67 @@
+name: Chatterbox
+author: Tanner Embry
+description: A simple chat control plugin.
+version: 0.6b
+main: com.snowgears.chatterbox.Chatterbox
+permissions:
+    chatterbox.use.default:
+        description: Allows player to use default chat.
+        default: op
+    chatterbox.use.whisper:
+        description: Allows player to use whisper chat.
+        default: op
+    chatterbox.use.yell:
+        description: Allows player to use yell chat.
+        default: op
+    chatterbox.use.world:
+        description: Allows player to use world chat.
+        default: op
+    chatterbox.use.server:
+        description: Allows player to use server chat.
+        default: op
+    chatterbox.use.global:
+        description: Allows player to use global chat.
+        default: op
+    chatterbox.use.channel:
+        description: Allows player to use channel chat.
+        default: op
+    chatterbox.create.channel:
+        description: Allows player to create custom channels.
+        default: op
+commands:
+   chatterbox:
+      description: Main command for plugin.
+      usage: /<command>
+   chat:
+      description: Alias. Main command for plugin.
+      usage: /<command>
+   channel:
+      description: Command for custom channels.
+      usage: /<command>
+   yell:
+      description: Allows player to yell, increasing chat radius.
+      usage: /<command>
+   y:
+      description: Alias. Allows player to yell, increasing chat radius.
+      usage: /<command>
+   whisper:
+      description: Allows player to whisper, private messages.
+      usage: /<command>
+   w:
+      description: Alias. Allows player to whisper, private messages.
+      usage: /<command>
+   reply:
+      description: Allows player to quickly reply to whispers.
+      usage: /<command>
+   r:
+      description: Alias. Allows player to quickly reply to whispers.
+      usage: /<command>
+   world:
+      description: Allows player to talk in world chat.
+      usage: /<command>
+   server:
+      description: Allows player to talk in server chat.
+      usage: /<command>
+   global:
+      description: Allows player to talk in global chat.
+      usage: /<command>

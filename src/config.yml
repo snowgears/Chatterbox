@@ -1,0 +1,21 @@
+# Thanks for downloading Chatterbox! #
+# Please tell me what you think! #
+
+
+usePermissions: false
+
+#
+#|-----------------------------------------------------------|
+#|-------------------Main Chat Features----------------------|
+#|-----------------------------------------------------------|
+#
+
+# These control how far (in blocks) the player's message will travel to others #
+
+ChatRadius:
+  default: 50
+  yell: 200
+
+# After how long (in minutes) will an invitation to a channel expire #
+# (set this to 0 if you want invitations to never expire) #
+inviteExpireTime: 5

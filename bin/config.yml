@@ -1,0 +1,50 @@
+# Thanks for downloading Chatterbox! #
+# Please tell me what you think! #
+
+
+usePermissions: false
+
+#
+#|-----------------------------------------------------------|
+#|-------------------Main Chat Features----------------------|
+#|-----------------------------------------------------------|
+#
+
+# Setting these to true will display chat messages above the speaker's head #
+
+DisplayAboveHead:
+  default: true
+  whisper: false
+  yell: true
+  channel: false
+  world: true
+  server: true
+  global: true
+
+# These control how far (in blocks) the player's message will travel to others #
+
+ChatRadius:
+  default: 50
+  yell: 200
+
+# After how long (in minutes) will an invitation to a channel expire #
+# (set this to 0 if you want invitations to never expire) #
+inviteExpireTime: 5
+
+#
+#|-----------------------------------------------------------|
+#|------------------Protection Features----------------------|
+#|-----------------------------------------------------------|
+#
+      # ALL TIME IN THIS SECTION IS IN MILLISECONDS #
+
+# How long should players have to wait between messages #
+# Default is 1.5 seconds (1500 milliseconds) #
+timeBetweenMessages: 1500
+
+# How long should players have to wait between commands #
+# Default is 1.5 seconds (1500 milliseconds) #
+timeBetweenCommands: 1500
+
+# This is the maximum percentage of capital letters allowed in a message #
+allowedCapitalsPercent: 50
